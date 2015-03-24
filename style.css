@@ -1,0 +1,202 @@
+body {
+
+	color:#dce0e0;
+	background-color:#111111;
+	
+	background-image: url("./images/wood_background.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.style{
+	padding-top: 350px;
+
+}
+
+.logo{
+	padding-top: 50px;
+}
+
+.logo img{
+		max-width: 100%;
+		height:auto;
+
+}
+
+.header{
+	font-size: 27px;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+
+}
+.header a{
+	display:inline-block;
+	width:100px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	border-bottom:1px solid #0787ac;
+	font-family: 'Lato', sans-serif;
+}
+
+.header a + a{
+	margin-left:10px;
+}
+
+a:link{
+		color:#c8c8c9;
+		text-decoration: none;
+		font-family: 'Lato', sans-serif;
+}
+a:visited{
+	color:#c8c8c9;
+}
+a:hover{
+	color:white;
+}
+a:active{
+	color:grey;
+}
+
+
+.menu{
+	font-size: 28px;
+	
+	
+
+
+}
+
+
+
+
+.courses{
+	color: #adae98;
+	padding-top: 50px;
+	
+
+}
+
+.menu-items{
+	padding-top: 5px;
+	padding-bottom: 20px;
+	
+}
+
+
+
+
+
+.contact{
+	font-size: 28px;
+	font-weight: 400;
+	padding-top: 150px;
+	padding-left: 20px;
+}
+
+.underline-three{
+	padding-left:20px;
+
+}
+
+.food{
+	font-size: 17px;
+}
+
+.phone{
+	font-size: 22px;
+}
+
+
+.columns{
+		overflow:hidden;
+}
+
+
+
+
+@media (min-width:600px){
+
+
+.column-one,
+.column-two{
+			float:left;
+			width:48%;
+
+}
+
+.column-two{
+	margin-left: 2%;
+}
+}
+
+@media (max-width:500px){
+
+.style{
+	text-align: center;
+	padding-right:20px;
+
+
+}
+
+@media (max-width:320px){
+body {
+
+	color:#dce0e0;
+	background-color:#111111;
+	
+	background-image: url("./images/wood_background.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 320px 480px;
+
+}
+
+
+
+
+}
+
+}
+
+@media (min-width:600px){
+
+.menu{
+	font-size: 28px;
+	font-weight: 400;
+	padding-left: 20px;
+}
+
+.courses{
+	color: #adae98;
+	padding-top: 50px;
+	padding-left: 40px;
+}
+
+.menu-items{
+	padding-top: 5px;
+	padding-bottom: 20px;
+	padding-left:50px;
+
+}
+
+.underline{
+	padding-left: 40px;
+}
+
+.divide{
+	padding-top: 100px;
+	padding-right:300px;
+	
+}
+}
+
+
+
+
+
+
+
+
+
+
